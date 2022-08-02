@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.sony{
+    max-width: 100px;
+}
+.nav-items{
+    color: white;
+}
+.search-bar{
+    background-color: #514c56;
+    max-width: 100px;
+    max-height: 50px;    
+}
+.sites-btn{
+    background-color: #2e353c;
+    max-height: 50px;
+    color: white;
+
+}
+.top-bar{
+    background-image: url(images/top-wall.jpg);
+    max-width: 1600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background:cover;
+}
+.top-bar-text{
+    padding: 50px 10vw;
+    max-width: 50vw;
+}
+@media screen and (max-width: 1000px) {
+    .top-bar-text{
+        display: none;
+    }
+  }
+.top-bar-text2{
+    padding: 50px 10vw;
+    max-width: 90vw;
+}
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+    .top-bar-text2{
+      display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1000px){
+    .top-bar-text2{
+      display: block;
+    }
+}
+.sec-img{
+    width: 100%;
+}
+.sec-img img{
+    max-width: 100%;
+}
+.blank{
+    height: 200px;
+
+}
+.blank2{
+    height: 100px;
+}
+.blankf{
+    height: 50px;
+
+}
+.blankf1{
+    height: 70px;
+
+}
+ol > li::marker {
+    font-weight: bold;
+}
+.foot-sec{
+    height: 45vh;
+    background-color: #1e2124;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+}
+.foot-sec1{
+    height: 20vh;
+    background-color: #1e2124;
+}
+.foot-div{
+    height: 100%;
+}
+
+.loc-text{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #514c56;
+}
+.ft-search{
+    background-color: rgba(0, 128, 0, 0);
+    border: none;
+    align-items: center center;
+}
+.search-ft{
+    background-color: #316af2;
+    margin: 5px 5px;
+    margin-right: 5px;
+}
+.ft-btn{
+    width: 80%;
+    display: flex;
+    background-color: #3d3c43;
+    color: white;
+    border: none;
+    align-items: center;
+    height: 40px;
+}
+.ft-lnk{
+    text-decoration: none;
+    color:white;
+}
+.ft-bg{
+    background-color: #1e2124;
+}
+.ft-lnk:hover{
+    text-decoration: none;
+    color: #ffffff88;
+}
+@media screen and (max-width: 1000px){
+    .ft-hd{
+      display: none;
+    }
+    .blankf1{
+        display: none;
+    }
+    .blankf{
+        display: none;
+    }
+}
